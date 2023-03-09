@@ -1,0 +1,141 @@
+{
+    "home": {
+        "Welcome to Zomfi": "Welcome to Zomfi",
+        "SPECIAL EVENT": "SPECIAL EVENT",
+        "GIVEAWAY": "GIVEAWAY",
+        "LIVE": "LIVE",
+        "OPEN UNTIL": "OPEN UNTIL",
+        "Play with your NFTS": "Play with your NFTS",
+        "Play now": "Play now",
+        "PLAY WITH YOUR NFTS": "PLAY WITH YOUR NFTS",
+        "Avatar Description": "Over 140K cool avatars are available to play in the Zomfi. Check out the collections and turn your NFT into life",
+        "Explore Avatar collection": "Explore Avatar collection",
+        "COMMUNITY": "COMMUNITY",
+        "WHATS NEW": "WHAT’S NEW",
+        "SOME OF OUR": "SOME OF OUR",
+        "PARTNERS": "PARTNERS",
+        "Become a Land Owner": "Become a Land Owner",
+        "Land Owner Desription": "A Land is a piece of the Zomfies metaverse, providing access to exclusive content as well as granting the possibility to monetize your own part of The Zomfie’s Metaverse. Build experiences, host events, invite friends.",
+        "Buy Land": "Buy Land",
+        "Discover the map": "Discover the map",
+        "Go to Marketplace": "Go to Marketplace",
+        "GET YOUR NFTs": "GET YOUR NFTs",
+        "Dog NFT Description": "Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable — allowing true digital ownership of in-game assets",
+        "WHY ZOMFI": "WHY ZOMFI ?",
+        "ZOMFI Description": "Zomfie is our main utility token that allows you to buy and sell LANDS and ASSETS in the Zomfi metaverse.",
+        "WHY ZED": "WHY ZED ?",
+        "ZED Description": "Zed is our in-game token that allows you to buy and sell LANDS and ASSETS in the Zomfi metaverse.",
+        "Buy $Zomfi": "Buy $Zomfi",
+        "Buy $Zed": "Buy $Zed"
+    },
+    "sideMenu": {
+        "Home": "Home",
+        "Play": "Play",
+        "Marketplace": "Marketplace",
+        "My Assets": "My Assets"
+    },
+    "play": {
+        "Dog Mint Page Name": "Mint Dog",
+        "Land Mint Page Name": "Mint Land",
+        "Dog Mint Title": "Mint Dog NFTs",
+        "Dog Mint SubTitle": "Choose a dog to accompany you. Dog NFTs ownable are shown below.",
+        "Land Mint Title": "Mint Land NFTs",
+        "Land Mint SubTitle": "Choose a land to accompany you. Land NFTs ownable are shown below.",
+        "Mint Progress": "Mint Progress",
+        "Mint": "Mint",
+        "Mint Description": "Mint Legend NFT to get a chance to mint Mythical by 0.01%.",
+        "Dogs Minted": "Dogs Minted",
+        "Lands Minted": "Lands Minted"
+    },
+    "rental": {
+        "Rental": "Rental",
+        "Earn Together": "Earn Together"
+    },
+    "header": {
+        "Download alpha": "Download alpha",
+        "Sign In": "Sign In",
+        "Total Balance": "Total Balance"
+    },
+    "cart": {
+        "Cart": "Cart",
+        "Title": "Shopping cart",
+        "ETHEREUM NETWORK": "ETHEREUM NETWORK",
+        "Total Cart": "Total Cart",
+        "Total": "Total",
+        "Description": "*The price and availability of items in Zomfi are subject to change. The Cart is a temporary place to store a list of your items and reflectd each item’s most recent price.",
+        "No Cart Item": "Add items to your cart and start buying!",
+        "Go To Market": "Go To Market",
+        "Confirm Delete": "Are you sure you want to delete?",
+        "Delete": "Delete",
+        "Cancel": "Cancel"
+    },
+    "marketplace": {
+        "Marketplace": "Marketplace",
+        "Dog NFT": "Dog NFT",
+        "Land NFT": "Land NFT",
+        "Marketplace Welcome": "Welcome to the NFT Marketplace",
+        "Description": "Discover Collections, get Equipment, or find assets to build your own unique Experiences.",
+        "For Sale": "For Sale",
+        "Show Al": "Show Al",
+        "CLEAR ALL FILTERS": "CLEAR ALL FILTERS",
+        "Current Price": "Current Price",
+        "NFT Name": "NFT Name",
+        "Rarity": "Rarity",
+        "About Collection": "About Collection",
+        "Collection Type": "This is {{nftType}} collection"
+    },
+    "assets": {
+        "My Assets": "My Assets",
+        "Buy/Sell History": "Buy/Sell History",
+        "Rent History": "Rent History",
+        "Pay Type": "Pay Type",
+        "Rental Price": "Rental Price",
+        "List": "List",
+        "Rental Pay Type": "Rental Pay Type",
+        "Notice": "Notice: The Currency is USD.",
+        "Start Price": "Start Price",
+        "To": "To",
+        "Percentage": "Percentage",
+        "Rent": "Rent",
+        "All": "All",
+        "Period(Days)": "Period(Days)",
+        "Collateral Amount": "Collateral Amount",
+        "Collateral Token Type": "Collateral Token Type"
+    },
+    "leaderboard": {
+        "Leaderboard": "Leaderboard"
+    },
+    "community": {
+        "Community Title": "Join our community",
+        "Community SubTitle": "Be part of our amazing community and stay tuned for any news.",
+        "Join Us": "Join Us"
+    },
+    "footer": {
+        "FOLLOW US": "FOLLOW US",
+        "News": "News",
+        "Create": "Create",
+        "Market": "Market",
+        "Play": "Play",
+        "Whitepaper": "Whitepaper",
+        "Map": "Map",
+        "Sand": "Sand",
+        "Press": "Press",
+        "Partners": "Partners",
+        "Terms of use": "Terms of use",
+        "One Pager": "One Pager",
+        "FAQ": "FAQ",
+        "Careers": "Careers",
+        "Licenses": "Licenses",
+        "Privacy Policy": "Privacy Policy",
+        "Copyright": "Copyright © 2012-2023, The Zomfi. All Rights Reserved"
+    },
+    "common": {
+        "Search": "Search",
+        "Show Flter": "Show Flter",
+        "Binance Network": "Binance Network",
+        "Details": "Details",
+        "Borrower": "Borrower",
+        "Lender": "Lender"
+        
+    }
+}

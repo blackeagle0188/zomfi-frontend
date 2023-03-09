@@ -1,0 +1,185 @@
+.communityWrapper {
+  background-image: url("/images/community.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 330px;
+}
+
+.spark {
+  bottom: 0;
+  width: 70%;
+  height: auto;
+  right: 0;
+  mix-blend-mode: lighten;
+}
+
+.modalContent {
+  position: relative;
+  background: #14171C;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.modalContent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 2px;
+  background: linear-gradient(180deg, #FF3636 0%, #00A0FB 100%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: clear;
+  pointer-events: none;
+}
+
+.buyModalContent {
+  position: relative;
+  background: linear-gradient(180deg, #1A1B1E 0%, #341515 100%);
+  border-radius: 20px 20px 100px 100px;
+  padding: 40px;
+}
+
+.buyModalContent::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px 20px 100px 100px;
+  padding: 2px;
+  background: linear-gradient(180deg, #FF3636 0%, #00A0FB 100%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: clear;
+  pointer-events: none;
+}
+
+.dropdownBtn {
+  background: rgb(233, 43, 43);
+  height: 37px;
+}
+
+.dropdownOptions {
+  background: #23272C;
+}
+
+.accordion {
+  height: 30px;
+  background: rgb(233, 43, 43);
+}
+
+.banner {
+  background-image: url("/images/homepage-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bannerContent {
+  justify-content: space-between;
+}
+
+.mainBackground {
+  background-image: url("/images/home-main-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blurEffect {
+  background: #512121;
+  filter: blur(50px);
+  border-radius: 50%;
+  width: 150%;
+  height: 150px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: 0;
+  z-index: 0;
+}
+
+.live {
+  width: 15px;
+  height: 15px;
+  background: #E80E0E;
+  border-radius: 100%;
+}
+
+.avatarCollection {
+  background-image: url("/images/monster.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.blogCard {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.blogTitle {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
+}
+
+.homeCommonImg {
+  bottom: 20%;
+  left: 0;
+}
+
+.homeRareImg {
+  left: 30%;
+  bottom: 0;
+}
+
+.homeLegendImg {
+  right: 0;
+  top: 15%;
+}
+
+.homeMythicalnImg {
+  top: 0;
+  left: 25%;
+}
+
+@media (max-width: 1600px) {
+  .bannerContent {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .communityWrapper {
+    background-image: url("/images/community-mobile.png");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 900px) {
+  .dropdownBtn {
+    height: 37px;
+  }
+}
+
+@media (max-width: 640px) {
+  .blogCard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .modalContent {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .dropdownBtn {
+    height: 30px;
+  }
+
+  .buyModalContent {
+    padding: 20px;
+    width: 100%;
+  }
+}

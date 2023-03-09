@@ -1,0 +1,39 @@
+.menuContainer {
+    background-color: #0C0E11;
+    transition: 0.5s;
+}
+
+.menuWrapper {
+    display: grid;
+    grid-template-rows: repeat(5, 140px);
+    padding: 10px 15px;
+}
+
+.active {
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.nonActive {
+    margin: 10px 0;
+    opacity: 30%;
+}
+
+.nonActive:hover {
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 10px;
+}
+
+.mobileActive {
+    width: 80px;
+}
+
+@media (max-width: 640px) {
+    .menuWrapper {
+        grid-template-rows: repeat(5, 80px);
+    }
+
+    .menuWrapper img {
+        width: 25px !important;
+    }
+}

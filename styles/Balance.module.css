@@ -1,0 +1,10 @@
+.balanceContainer {}
+
+.zomfiBalance, .zedBalance {
+    border: 1px solid #646262;
+    border-radius: 5px;
+}
+
+.network {}
+
+.zomfi {}

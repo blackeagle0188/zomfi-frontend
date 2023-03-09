@@ -1,0 +1,152 @@
+.headerContainer {
+    display: grid;
+    grid-template-columns: 258px 1fr;
+    background-color: #0C0E11;
+    border-bottom: 1px solid #717171;
+    grid-area: 1/1/2/2;
+}
+
+.logoContainer {
+    background: linear-gradient(180deg, rgba(73, 3, 3, 0) 0%, #490303 100%);
+    clip-path: polygon(0 0%, 0% 100%, calc(100% - 40px) 100%, 100% 0);
+}
+
+.logoImage {
+    width: 135px;
+}
+
+.hamburger > div {
+    height: 100% !important;
+    transform: translateY(-4px);
+}
+
+.menuWrapper {
+    max-width: 678px;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 0 16px 0 60px;
+}
+
+.userImage {
+    box-shadow: 0px 0px 8px #FF0000;
+}
+
+.menuBackground {
+    height: 100%;
+    max-width: 678px;
+    background: linear-gradient(180deg, #490303 0%, rgba(73, 3, 3, 0) 100%);
+    clip-path: polygon(40px 0, 0 100%, 100% 100%, 100% 0);
+}
+
+.logoBackground .normalBackground {
+    width: 258px;
+}
+
+.connectBtn {
+    height: 30px;
+    background: #9E0000;
+    clip-path: polygon(25px 0, 0 100%, calc(100% - 25px) 100%, 100% 0);
+    padding: 0 25px;
+    transition: all ease .3s;
+}
+
+.connectBtn:hover {
+    background: #720101;
+}
+
+.connectBtn:active {
+    background: #930000;
+}
+
+.appContainer {
+    width: 270px;
+    height: 30px;
+    background: #9E0000;
+    clip-path: polygon(25px 0, 0 100%, calc(100% - 25px) 100%, 100% 0);
+    margin-right: 20px;
+    padding: 0 30px;
+}
+
+.appContainer .appText {
+    font-size: 15px;
+}
+
+.langContainer {
+    height: 35px;
+}
+
+.langContainer .language {
+    font-size: 15px;
+}
+
+.userModal {
+    left: -14px;
+    top: 40px;
+}
+
+.balanceModal {
+    left: -14px;
+    top: 40px;
+}
+
+.langModal {
+    left: -38px;
+    top: 40px;
+}
+
+.mobileLang {
+    left: 35px;
+}
+
+@media (max-width: 900px) {
+    .headerContainer {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .logoImage {
+        width: 100px;
+    }
+    
+    .userImage, .blanace, .cartIcon, .worldIcon {
+        width: 25px;
+    }
+
+    .langContainer .language {
+        font-size: 14px;
+    }
+
+    .menuBackground, .menuWrapper {
+        max-width: 300px;
+    }
+
+    .balanceModal {
+        left: -150px;
+    }
+
+    .mobileBalance {
+        right: 90px;
+        left: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .headerContainer {
+        grid-template-columns: 150px 1fr;
+    }
+
+    .menuWrapper {
+        padding-left: 40px;
+    }
+
+    .userImage, .blanace, .cartIcon, .worldIcon {
+        width: 20px;
+    }
+
+    .langContainer .language {
+        font-size: 12px;
+    }
+
+    .logoImage {
+        width: 70px;
+    }
+}

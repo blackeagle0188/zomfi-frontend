@@ -1,0 +1,623 @@
+.main {
+    background: #14181D;
+}
+
+.headerContainer {
+    position: relative;
+}
+
+.headerBackground {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+}
+
+.headerContent {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.headerHeading {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0.5em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.headerBanner {
+    mix-blend-mode: lighten;
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
+}
+
+.headerDescription {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #656565;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0e11;
+    border-bottom: 1px solid #717171;
+}
+
+.activeTabItem {
+    background-color: #81818133;
+}
+
+.tabItem {
+    display: inline-block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.character,
+.zomfiNft,
+.tokens,
+.roadmap {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF2525;
+    border-bottom: 1px solid #FF2525;
+    padding: 15px 5rem 0px;
+}
+
+.manCharacterDetail {
+    flex: 1;
+    margin-top: 6rem;
+}
+
+.manCharacter {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manCharacter>img {
+    max-width: 140%;
+    width: 140%;
+}
+
+.womanCharacterDetail {
+    flex: 1;
+    margin-top: 6rem;
+}
+
+.womanCharacter {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.womanCharacter>img {
+    max-width: 140%;
+    width: 140%;
+}
+
+.characterNote {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    padding: 15px;
+    text-align: left;
+    color: #ffffff;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #818181 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 30%;
+    background: linear-gradient(180deg, #262626 0%, rgba(52, 52, 52, 0) 100%), linear-gradient(180deg, #818181 0%, rgba(255, 255, 255, 0) 100%);
+    min-height: 320px;
+    margin-bottom: 50px;
+}
+
+.characterName {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 30px 5px;
+    flex: 1;
+    border-bottom: 1px solid #ffffff;
+}
+
+.manCharacterNameBlur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #256FFF66;
+    filter: blur(30px);
+    border-radius: 50%;
+}
+
+.womanCharacterNameBlur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FF258133;
+    filter: blur(30px);
+    border-radius: 50%;
+}
+
+.zomfiText {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+.mapContainer {
+    background: url(/images/map.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin-bottom: 10rem;
+}
+
+.sliderContainer {
+    width: 100%;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #494949;
+    overflow: hidden;
+}
+
+.sliderCaption {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sliderCommonBar {
+    height: 36px;
+    width: 10%;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #F5A238 0%, #ED187A 100%);
+}
+
+.sliderRareBar {
+    height: 36px;
+    width: 24%;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #A0D7DB 0%, #04888D 100%);
+}
+
+.sliderLegendaryBar {
+    height: 36px;
+    width: 47%;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #F3EF96 0%, #87C798 100%);
+}
+
+.sliderMythicalBar {
+    height: 36px;
+    width: 67%;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #F19C78 0%, #D79AC0 100%);
+}
+
+.zomfiNftAssets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zomfiNftAssets>div {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zomfiNftAssets>div:last-child {
+    margin-bottom: 0px;
+}
+
+.zomfiNftName {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    background: #2D2D2D80;
+    border-radius: 20px;
+    padding: 5px 15px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.chatLeftBalloonContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+}
+
+.chatLeftBalloon {
+    width: 75%;
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 47px;
+    color: #ffffff;
+    background: #38363680;
+    border-radius: 20px;
+    padding: 40px 20px 30px;
+}
+
+.chatLeftBalloon>img {
+    position: absolute;
+    top: -47px;
+    left: -47px;
+}
+
+.chatRightBalloonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 35px;
+}
+
+.chatRightBalloon {
+    width: 75%;
+    font-size: 28px;
+    line-height: 35px;
+    margin-right: 47px;
+    color: #ffffff;
+    background: #38363680;
+    border-radius: 20px;
+    padding: 40px 20px 40px;
+}
+
+.chatRightBalloon>img {
+    position: absolute;
+    top: -47px;
+    right: -47px;
+}
+
+.roadmapBottom {
+    margin-top: 4%;
+}
+
+.roadmapMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roadmapMask>h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.roadmapTopDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fafafa;
+}
+
+.roadmapBtmDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fafafa;
+}
+
+.zomfiCommunityHeading {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF2525;
+    border-bottom: 1px solid #FF2525;
+    padding: 0rem .3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.communitySubCaption {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #FF2525;
+}
+
+.communityCaption {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+.communityContent {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.communityBtn {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    color: #00FFC2;
+}
+
+.communityBtn>img {
+    display: inline-block;
+}
+
+.latestArticlesCaption {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.articleSubCaption {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF2525;
+    margin-bottom: 1rem;
+}
+
+.articleTitle {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.videoContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.videoPlayBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .headerHeading {
+        font-size: 25px;
+    }
+
+    .headerDescription {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .mapContainer {
+        margin-bottom: 6rem;
+    }
+
+    .character,
+    .zomfiNft,
+    .tokens,
+    .roadmap {
+        font-size: 50px;
+        padding: 15px 3rem 0px;
+    }
+
+    .manCharacterDetail {
+        flex: 1 1 66%;
+        margin-top: 0px;
+        order: 2;
+    }
+
+    .manCharacter {
+        flex: 1 1 33%;
+        order: 1;
+    }
+
+    .manCharacter>img {
+        width: 100%;
+    }
+
+    .womanCharacterDetail {
+        flex: 1 1 66%;
+        margin-top: 0px;
+        order: 3;
+    }
+
+    .womanCharacter {
+        flex: 1 1 33%;
+        order: 4;
+        margin-top: -4rem;
+    }
+
+    .womanCharacter>img {
+        width: 100%;
+    }
+
+    .characterNote {
+        font-size: 22px;
+        line-height: 30px;
+        min-height: 300px;
+        margin-bottom: 2rem;
+    }
+
+    .characterName {
+        font-size: 30px;
+    }
+
+    .zomfiText {
+        font-size: 25px;
+        line-height: 30px;
+        ;
+    }
+
+    .sliderCaption {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sliderContainer,
+    .sliderCommonBar,
+    .sliderRareBar,
+    .sliderLegendaryBar,
+    .sliderMythicalBar {
+        height: 30px;
+    }
+
+    .zomfiNftName {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .chatLeftBalloon,
+    .chatRightBalloon {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .roadmapTopDescription,
+    .roadmapBtmDescription {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .roadmapMask>h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .headerContainer {
+        min-height: 450px;
+        background: url(../public/images/background.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .headerContent {
+        align-items: flex-end;
+        padding: 15px;
+    }
+
+    .headerBackground {
+        display: none;
+    }
+
+    .headerHeading {
+        font-size: 22px;
+    }
+
+    .headerBanner {
+        max-width: 80%;
+    }
+
+    .headerDescription {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .tabs {
+        justify-content: flex-start;
+    }
+
+    .tabItem {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .character,
+    .zomfiNft,
+    .tokens,
+    .roadmap {
+        font-size: 40px;
+    }
+
+    .characterNote {
+        font-size: 18px;
+        line-height: 25px;
+        min-height: 220px;
+    }
+
+    .zomfiText {
+        font-size: 22px;
+    }
+}
